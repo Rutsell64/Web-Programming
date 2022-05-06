@@ -1,0 +1,106 @@
+body {
+    background-color: #D7E9F7;
+    overflow-x: hidden;
+
+
+
+}
+
+#banner {
+    margin-top: 10pt;
+    margin-left: 10pt;
+
+}
+
+#banner img {
+    width: 10%;
+    height: 10%;
+
+}
+
+#banner hr {
+    width: 200%;
+    height: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-left: -50%;
+
+}
+
+.scroll {
+    background-color: transparent;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    height: 350px;
+    width: 120%;
+    margin-left: -10%;
+
+    padding: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 10px;
+    height: 20px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    background-color: #E9F9FD;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #9ADCFF;
+}
+
+
+li {
+    display: inline;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0;
+    padding: 30pt;
+}
+
+li.first {
+    margin-left: 5%;
+}
+
+li.last {
+    margin-right: 9%;
+}
+
+
+
+.genre {
+    background-color: lightslategray;
+    /* will change afterward */
+    border: 5px solid black;
+    margin-top: 50pt;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 1200pt;
+    width: 95%;
+
+
+}
+
+.genre p 
+{
+    margin-left: 10pt;
+}
+
+.genre input.left
+{
+    float: left;
+    height: 21px;
+    width: 210px;
+}
+
+.genre input.submit
+{
+    margin-left: 10pt;
+    
+}
+
