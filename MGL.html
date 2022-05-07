@@ -12,11 +12,16 @@
     <div id="banner">
 
         <a href="MGL.html">
-            <img src="logo.png" />
+            <img class="logo"src="logo.png" />
         </a>
 
         <br> <br>
         <!-- insert buttons here -->
+        <ul class="buttons">
+            <a href="https://www.google.com"><li id="button">Profile</li></a>
+            <a href="https://www.yahoo.com"><li id="button">What's New?</li></a>
+            <a href="https://www.bing.com"><li id="button">Community</li></a>
+        </ul>
         <hr>
         <br>
 
@@ -24,8 +29,7 @@
         <div class="scroll">
 
             <ul>
-                <li class="first"> <a href="https://www.residentevil.com/4/us/"> <img src="GameCovers/RE4.jpg"> </a>
-                </li>
+                <li class="first"> <a href="https://www.residentevil.com/4/us/"> <img src="GameCovers/RE4.jpg" title="Resident Evil 4"></a></li>
                 <li> <img src="GameCovers/GTA4.jpg"> </li>
                 <li> <img src="GameCovers/Mortal_Kombat.jpg"> </li>
                 <li> <img src="GameCovers/DOOM.jpg"> </li>
@@ -38,7 +42,7 @@
                 <li> <img src="GameCovers/Super.jpg"> </li>
                 <li> <img src="GameCovers/Little_Big_Planet.jpg"> </li>
                 <li> <img src="GameCovers/RE4.jpg"> </li>
-                <li class="last"> <img src="GameCovers/RE4.jpg"> </li>
+                <li class="last"> <img src="GameCovers/GTA4.jpg"> </li>
             </ul>
         </div>
     </div>
@@ -48,6 +52,8 @@
 
         <form action="http://www.webstepbook.com/params.php">
             <p>
+                <br><br>
+                
                 <input class="left" name="genre" list="genres" />
 
                 <datalist id="genres">
@@ -56,6 +62,10 @@
                     <option>Action</option>
                     <option>Shooter</option>
                     <option>Indie</option>
+                    <option>RPG</option>
+                    <option>Sport</option>
+                    <option>Arcade</option>
+                    <option>Strategy</option>
                 </datalist>
 
                 <input class="submit" type="image" name="submit" src="go.png" alt="Submit" placeholder="Search genre..."
@@ -87,7 +97,9 @@
 
 
 
-
+    <p>
+        <br><br><br><br><br><br> <!-- will change afterward-->
+    </p>
 
 </body>
 
