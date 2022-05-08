@@ -56,8 +56,6 @@
                 <option value="https://www.facebook.com">Strategy</option>
             </select>
 
-
-        </form>
         </p>
     </div>
 
