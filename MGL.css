@@ -65,7 +65,7 @@ body::-webkit-scrollbar-thumb {
     margin-left: 30px;
     
     
-    color: #9ADCFF;
+    color: #9ADCFF90;
     background-color: #E9F9FD;
     text-align: center;
     line-height: 39%;
@@ -75,6 +75,11 @@ body::-webkit-scrollbar-thumb {
     border-radius: 39px 39px 0 0;
 
 
+}
+
+#banner #button:hover
+{
+    color: #9ADCFF;
 }
 
 .scroll {
