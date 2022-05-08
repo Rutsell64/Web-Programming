@@ -53,22 +53,21 @@
         <p>
             <br><br>
 
-        <form action="http://www.webstepbook.com/params.php">
               
-            <select name="genres">
+            <select name="genres" onchange="location = this.value;">
                 <option id="choose_genre" selected disabled hidden>choose genre...</option>
-                <option>Action</option>
-                <option>Adventure</option>
-                <option>Arcade</option>
-                <option>Horror</option>     
-                <option>Indie</option>
-                <option>RPG</option>
-                <option>Shooter</option>
-                <option>Sport</option>
-                <option>Strategy</option>
+                <option value="https://www.google.com">Action</option> <!-- will change link for these-->
+                <option value="https://www.bing.com">Adventure</option>
+                <option value="https://www.yahoo.com">Arcade</option>
+                <option value="https://www.facebook.com">Horror</option>     
+                <option value="https://www.instagram.com">Indie</option>
+                <option value="https://www.yahoo.com">RPG</option>
+                <option value="https://www.twitter.com">Shooter</option>
+                <option value="https://www.google.com">Sport</option>
+                <option value="https://www.facebook.com">Strategy</option>
             </select>
 
-            <input class="submit" type="image" name="submit" src="go.png" alt="Submit" placeholder="Search genre..." value="Go" />
+
         </form>
 
 
