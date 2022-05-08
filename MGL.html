@@ -50,30 +50,30 @@
 
     <div class="genre">
 
+        <p>
+            <br><br>
+
         <form action="http://www.webstepbook.com/params.php">
-            <p>
-                <br><br>
-                
-                <input class="left" name="genre" list="genres" />
+              
+            <select name="genres">
+                <option id="choose_genre" selected disabled hidden>choose genre...</option>
+                <option>Adventure</option>
+                <option>Horror</option>
+                <option>Action</option>
+                <option>Shooter</option>
+                <option>Indie</option>
+                <option>RPG</option>
+                <option>Sport</option>
+                <option>Arcade</option>
+                <option>Strategy</option>
+            </select>
 
-                <datalist id="genres">
-                    <option>Adventure</option>
-                    <option>Horror</option>
-                    <option>Action</option>
-                    <option>Shooter</option>
-                    <option>Indie</option>
-                    <option>RPG</option>
-                    <option>Sport</option>
-                    <option>Arcade</option>
-                    <option>Strategy</option>
-                </datalist>
-
-                <input class="submit" type="image" name="submit" src="go.png" alt="Submit" placeholder="Search genre..."
-                    value="Go" />
-            </p>
+            <input class="submit" type="image" name="submit" src="go.png" alt="Submit" placeholder="Search genre..." value="Go" />
         </form>
 
 
+
+        </p>
     </div>
 
 

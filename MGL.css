@@ -61,14 +61,14 @@ body::-webkit-scrollbar-thumb {
     top: 36px;
 
     width: 100px;
-    height: 1px;
+    height: .1px;
     margin-left: 30px;
     
     
     color: #9ADCFF;
     background-color: #E9F9FD;
     text-align: center;
-    line-height: 50%;
+    line-height: 39%;
     
     font-weight: bold;
 
@@ -136,17 +136,36 @@ li.last {
 
 }
 
-.genre p {
-    margin-left: 70px;
+.genre select {
+    float: left;
+    height: 36px;
+    width: 270px;
+    margin-left: 72px;
+
+    border-radius: 50px;
+    border: 3px solid transparent;
+
+    background-color: #E9F9FD;
+    color: #9ADCFF;
+    text-align: center;
+    font-weight: bold;
+
 }
 
-.genre input.left {
-    float: left;
-    height: 21px;
-    width: 210px;
+.genre select:focus,.genre select:hover
+{
+    outline: none;
+    border: 3px solid #9ADCFF;
+}
+
+.genre select option
+{
+    background-color: black;
 }
 
 .genre input.submit {
-    margin-left: 10pt;
+    margin-left: 15px;
+    position: relative;
+    top: 3px;
 
 }
