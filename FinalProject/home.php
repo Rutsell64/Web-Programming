@@ -1,23 +1,6 @@
-<!DOCTYPE html>
+<?php include("top.html");?>
 
-<head>
-
-    <title>MyGamingList</title>
-    <link href="home.css" type="text/css" rel="stylesheet">
-
-</head>
-
-<body>
-
-    <div id="banner">
-
-        <a href="MGL.html">
-            <img class="logo"src="logo.png" />
-        </a>
-    </div>
-
-
-    <div id="buttons">
+<div id="buttons">
         <br> <br>
         <!-- insert buttons here -->
         <ul class="buttons">
@@ -35,20 +18,20 @@
         <div class="scroll">
 
             <ul>
-                <li class="first"> <a href="https://www.residentevil.com/4/us/"> <img src="Game_Covers/RE4.jpg" title="Resident Evil 4"></a></li>
-                <li> <img src="Game_Covers/GTA4.jpg"> </li>
-                <li> <img src="Game_Covers/Mortal_Kombat.jpg"> </li>
-                <li> <img src="Game_Covers/DOOM.jpg"> </li>
-                <li> <img src="Game_Covers/Super.jpg"> </li>
-                <li> <img src="Game_Covers/Little_Big_Planet.jpg"> </li>
-                <li> <img src="Game_Covers/RE4.jpg"> </li>
-                <li> <img src="Game_Covers/GTA4.jpg"> </li>
-                <li> <img src="Game_Covers/Mortal_Kombat.jpg"> </li>
-                <li> <img src="Game_Covers/DOOM.jpg"> </li>
-                <li> <img src="Game_Covers/Super.jpg"> </li>
-                <li> <img src="Game_Covers/Little_Big_Planet.jpg"> </li>
-                <li> <img src="Game_Covers/RE4.jpg"> </li>
-                <li class="last"> <img src="Game_Covers/GTA4.jpg"> </li>
+                <li class="first"> <a href="https://www.residentevil.com/4/us/"> <img src="GameCovers/RE4.jpg" title="Resident Evil 4"></a></li>
+                <li> <img src="GameCovers/GTA4.jpg"> </li>
+                <li> <img src="GameCovers/Mortal_Kombat.jpg"> </li>
+                <li> <img src="GameCovers/DOOM.jpg"> </li>
+                <li> <img src="GameCovers/Super.jpg"> </li>
+                <li> <img src="GameCovers/Little_Big_Planet.jpg"> </li>
+                <li> <img src="GameCovers/RE4.jpg"> </li>
+                <li> <img src="GameCovers/GTA4.jpg"> </li>
+                <li> <img src="GameCovers/Mortal_Kombat.jpg"> </li>
+                <li> <img src="GameCovers/DOOM.jpg"> </li>
+                <li> <img src="GameCovers/Super.jpg"> </li>
+                <li> <img src="GameCovers/Little_Big_Planet.jpg"> </li>
+                <li> <img src="GameCovers/RE4.jpg"> </li>
+                <li class="last"> <img src="GameCovers/GTA4.jpg" title="GTA 4"> </li>
             </ul>
         </div>
     
@@ -69,7 +52,7 @@
                 <option value="https://www.instagram.com">Indie</option>
                 <option value="https://www.yahoo.com">RPG</option>
                 <option value="https://www.twitter.com">Shooter</option>
-                <option value="https://www.google.com">Sport</option>
+                <option value="https://www.google.com">Sports</option>
                 <option value="https://www.facebook.com">Strategy</option>
             </select>
 
@@ -77,32 +60,6 @@
         </form>
         </p>
     </div>
-   
 
+<?php include("bottom.html");?>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <p>
-        <br><br><br><br><br><br> <!-- will change afterward-->
-    </p>
-
-</body>
-
-</html>
