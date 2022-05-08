@@ -1,0 +1,183 @@
+* {
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+body {
+    background-color: #D7E9F7;
+    overflow-x: hidden;
+
+}
+
+body::-webkit-scrollbar {
+    width: 20px;
+
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #E9F9FD;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #9ADCFF;
+    border-radius: 50px;
+}
+
+#banner {
+    margin-top: 10pt;
+    margin-left: 10pt;
+
+}
+.logo
+{
+    margin-left: 12px;
+    width: 10%;
+    height: 10%;
+}
+
+
+
+
+
+#buttons hr {
+    width: 200%;
+    height: 20px;
+    border: none;
+    background-color: #E9F9FD;
+    margin-left: -50%;
+
+}
+
+.buttons {
+
+    margin-left: -60px;
+    margin-top: -21px;
+    
+}
+
+#buttons #button {
+    display: inline-block;
+    position: relative;
+    top: 36px;
+
+    width: 100px;
+    height: .1px;
+    margin-left: 30px;
+    
+    
+    color: #9ADCFF90;
+    background-color: #E9F9FD;
+    text-align: center;
+    line-height: 39%;
+    
+    font-weight: bold;
+
+    border-radius: 39px 39px 0 0;
+
+
+}
+
+#buttons #button:hover
+{
+    color: #9ADCFF;
+}
+
+.scroll {
+    background-color: transparent;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    position: relative;
+    right: 10px;
+    height: 360px;
+    width: 110%;
+    /* margin-left: -10%; */ 
+
+    padding: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.scroll::-webkit-scrollbar {
+    height: 20px;
+    
+}
+
+.scroll::-webkit-scrollbar-track {
+    background-color: #E9F9FD;
+    
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #9ADCFF;
+}
+
+
+li {
+    display: inline;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0;
+    padding: 30pt;
+}
+
+li.first {
+     margin-left: -36px;
+}
+
+li.last {
+     margin-right: 150px;
+}
+img {
+    width: 12%;
+    height: 12%;
+
+} 
+
+
+
+.genre {
+    background-color: transparent;
+    border: 5px solid #E9F9FD;
+    border-radius: 50px;
+    margin-top: 50pt;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 720pt;
+    width: 95%;
+
+
+}
+
+.genre select {
+    float: left;
+    height: 36px;
+    width: 270px;
+    margin-left: 72px;
+
+    border-radius: 50px;
+    border: 3px solid transparent;
+
+    background-color: #E9F9FD;
+    color: #9ADCFF;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.genre select:focus,.genre select:hover
+{
+    outline: none;
+    border: 3px solid #9ADCFF;
+}
+
+.genre select option
+{
+    background-color: black;
+}
+
+.genre input.submit {
+    margin-left: 15px;
+    position: relative;
+    top: 3px;
+
+}
