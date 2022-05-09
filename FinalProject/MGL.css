@@ -80,6 +80,45 @@ fieldset .login {
  padding-left:10px;
 }
 
+.game_progress{
+ border:hidden;
+ width:15em;
+ position:absolute;
+ left:700px;
+ top:500px;
+ height:58px;
+}
+
+.progress_button{
+	margin-left:90px;
+}
+
+.game_status{
+  border:hidden;
+  width:10em;
+  position:absolute;
+  left:350px;
+  top:500px;
+  height:58px;
+}
+
+.status_button{
+	margin-left:6px;
+}
+
+.game_score{
+  border:hidden;
+  width:8em;
+  position:absolute;
+  left:540px;
+  top:500px;
+  height:58px;
+}
+
+.score_button{
+	margin-left:45px;
+}
+
 #game_headers{
 	text-align:center;
 	text-decoration:underline;
