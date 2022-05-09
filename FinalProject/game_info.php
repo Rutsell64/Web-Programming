@@ -6,7 +6,7 @@
 	<body> 
 	
 		<?php
-			$name = "Hollow Knight";
+			$name = "Resident Evil 4";
 			$image = str_replace(' ','%20', $name);
 			$content = file_get_contents("games.txt"); 
 			$lines = explode("\n", $content);
@@ -71,7 +71,62 @@
 			
 		?>
 		</div>
-	
+		
+		<div class = "game_progress">
+			<div id = "game_headers">
+				<?php print "Game Progress Percentage"; ?>
+			</div>
+				<?php
+					print "<br>";
+				?>
+			<select class = "progress_button">
+				<?php
+					for ($i=0; $i<=100; $i++)
+						{
+				?>
+						<option value="<?php echo $i;?>"><?php echo $i;?></option>
+				<?php
+						}
+				?>
+			</select>
+		</div>
+		
+		
+		<div class = "game_status">
+				<div id = "game_headers">
+					<?php print "Game Status" ?>
+				</div>
+			<?php
+				print "<br>";
+			?>
+			
+			<select class = "status_button">
+				<option value = "Not_Started">Not Started</option>
+				<option value = "Currently_Playing">Currently Playing</option>		
+				<option value = "Completed">Completed</option>
+			</select>
+			
+		</div>
+		
+		<div class = "game_score">
+			<div id = "game_headers">
+				<?php print "Your Score"; ?>
+			</div>
+		<?php
+			print "<br>";
+		?>
+			<select class = "score_button">
+				<?php
+					for ($i=0; $i<=10; $i++)
+						{
+				?>
+						<option value="<?php echo $i;?>"><?php echo $i;?></option>
+				<?php
+						}
+				?>
+			</select>
+		</div>
+		
 	</body>
 
 </html>
