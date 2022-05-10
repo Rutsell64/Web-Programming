@@ -7,6 +7,11 @@
             <a href="https://www.google.com"><li id="button">Profile</li></a>
             <a href="whats_new.php"><li id="button">What's New?</li></a>
             <a href="https://www.bing.com"><li id="button">Community</li></a>
+
+            <!-- will change next 3 after -->
+            <a href="signup.php"><li id="button">Sign Up</li></a> 
+            <a href="login.php"><li id="button">Log In</li></a>
+            <a href="game_info.php"><li id="button">Info</li></a>
         </ul>
         <hr>
         <br>
@@ -17,20 +22,20 @@
         <div class="scroll">
 
             <ul>
-                <li class="first"> <a href="https://www.google.com"> <img src="GameCovers/RE4.jpg" title="Resident Evil 4"></a></li>
-                <li> <img src="GameCovers/GTA4.jpg"> </li>
-                <li> <img src="GameCovers/Mortal_Kombat.jpg"> </li>
-                <li> <img src="GameCovers/DOOM.jpg"> </li>
-                <li> <img src="GameCovers/Super.jpg"> </li>
-                <li> <img src="GameCovers/Little_Big_Planet.jpg"> </li>
-                <li> <img src="GameCovers/RE4.jpg"> </li>
-                <li> <img src="GameCovers/GTA4.jpg"> </li>
-                <li> <img src="GameCovers/Mortal_Kombat.jpg"> </li>
-                <li> <img src="GameCovers/DOOM.jpg"> </li>
-                <li> <img src="GameCovers/Super.jpg"> </li>
-                <li> <img src="GameCovers/Little_Big_Planet.jpg"> </li>
-                <li> <img src="GameCovers/RE4.jpg"> </li>
-                <li class="last"> <img src="GameCovers/GTA4.jpg" title="GTA 4"> </li>
+                <li class="first"> <a href="https://www.google.com"> <img src="Game_Covers/RE4.jpg" title="Resident Evil 4"></a></li>
+                <li> <img src="Game_Covers/GTA4.jpg"> </li>
+                <li> <img src="Game_Covers/Mortal_Kombat.jpg"> </li>
+                <li> <img src="Game_Covers/DOOM.jpg"> </li>
+                <li> <img src="Game_Covers/Super.jpg"> </li>
+                <li> <img src="Game_Covers/Little_Big_Planet.jpg"> </li>
+                <li> <img src="Game_Covers/RE4.jpg"> </li>
+                <li> <img src="Game_Covers/GTA4.jpg"> </li>
+                <li> <img src="Game_Covers/Mortal_Kombat.jpg"> </li>
+                <li> <img src="Game_Covers/DOOM.jpg"> </li>
+                <li> <img src="Game_Covers/Super.jpg"> </li>
+                <li> <img src="Game_Covers/Little_Big_Planet.jpg"> </li>
+                <li> <img src="Game_Covers/RE4.jpg"> </li>
+                <li class="last"> <img src="Game_Covers/GTA4.jpg" title="GTA 4"> </li>
             </ul>
         </div>
     
