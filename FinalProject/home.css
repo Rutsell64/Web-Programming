@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #D7E9F7;
+    background-color: #212227;
     overflow-x: hidden;
 
 }
@@ -14,11 +14,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background-color: #E9F9FD;
+    background-color: #121315;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #9ADCFF;
+    background-color: #79DAE9;
     border-radius: 50px;
 }
 
@@ -42,7 +42,7 @@ body::-webkit-scrollbar-thumb {
     width: 200%;
     height: 20px;
     border: none;
-    background-color: #E9F9FD;
+    background-color: #121315;
     margin-left: -50%;
 
 }
@@ -66,8 +66,8 @@ body::-webkit-scrollbar-thumb {
     margin-left: 30px;
     
     
-    color: #9ADCFF90;
-    background-color: #E9F9FD;
+    color: #79DAE9;
+    background-color: #121315;
     text-align: center;
     line-height: 39%;
     
@@ -83,36 +83,40 @@ body::-webkit-scrollbar-thumb {
 
 #buttons #button:hover
 {
-    color: #9ADCFF;
+    color: #D6E5FA;
+    
 }
 
-.scroll {
+.scroll, .new_games, .upcoming_games {
     background-color: transparent;
     border: 1px solid transparent;
     white-space: nowrap;
     position: relative;
-    right: 10px;
+    right: 0;
     height: 360px;
-    width: 110%;
-    /* margin-left: -10%; */ 
+    width: 100%;
+    
 
     padding: 0;
     overflow-x: scroll;
     overflow-y: hidden;
 }
 
-.scroll::-webkit-scrollbar {
+.scroll::-webkit-scrollbar, .new_games::-webkit-scrollbar, .upcoming_games::-webkit-scrollbar {
     height: 20px;
     
 }
 
-.scroll::-webkit-scrollbar-track {
-    background-color: #E9F9FD;
+.scroll::-webkit-scrollbar-track, .new_games::-webkit-scrollbar-track, .upcoming_games::-webkit-scrollbar-track{
+    background-color: #121315;
+    border-radius: 50px;
+    
     
 }
 
-.scroll::-webkit-scrollbar-thumb {
-    background-color: #9ADCFF;
+.scroll::-webkit-scrollbar-thumb, .new_games::-webkit-scrollbar-thumb, .upcoming_games::-webkit-scrollbar-thumb{
+    background-color: #79DAE9;
+    border-radius: 50px;
 }
 
 
@@ -132,8 +136,8 @@ li.last {
      margin-right: 150px;
 }
 img {
-    width: 12%;
-    height: 12%;
+    width: 14%;
+    height: 14%;
 
    
 
@@ -143,7 +147,7 @@ img {
 
 .genre {
     background-color: transparent;
-    border: 5px solid #E9F9FD;
+    border: 5px solid #121315;
     border-radius: 50px;
     margin-top: 50pt;
     margin-left: auto;
@@ -164,8 +168,8 @@ img {
     border-radius: 50px;
     border: 3px solid transparent;
 
-    background-color: #E9F9FD;
-    color: #9ADCFF;
+    background-color: #121315;
+    color: #79DAE9;
     text-align: center;
     font-weight: bold;
 
@@ -174,7 +178,7 @@ img {
 .genre select:focus,.genre select:hover
 {
     outline: none;
-    border: 3px solid #9ADCFF;
+    border: 3px solid #79DAE9;
 }
 
 .genre select option
@@ -189,6 +193,116 @@ img {
 
 }
 
+/* what's new? */
+
+.whats_new_scroll 
+{
+    display: inline;
+    white-space: nowrap;
+    margin-left: -70px;
+}
+
+.vertical_scroll
+{
+    height: 999px;
+    width: 63%;
+    background-color:transparent;
+    border: 5px solid #79DAE9;
+    border-radius: 50px;
+    
+
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.news_scroll
+{
+    height: 999px;
+    width: 30%;
+    background-color: transparent;
+    border: 5px solid #79DAE9;
+    border-radius: 50px;
+
+    display: inline-block;
+    overflow: hidden;
+
+    margin-left: -39px;
+    
+}
+
+h1{
+    text-align: center;
+    background-color: #79DAE9;
+    height: 72px;
+    width: 100%;
+    margin-top: 0;
+ 
+}
+
+
+
+h2{
+    
+    text-align: center;
+    background-color: #79DAE9;
+    height: 54px;
+    margin-right: 720px;
+
+    border-radius: 0 50px 50px 0;
+    
+    
+}
+
+#header
+{
+    color: #121315;
+    vertical-align: -50%;
+}
+
+#header2
+{
+
+    color: #121315;
+    vertical-align: -50%;
+}
+
+#news_header
+{
+    background-color: #79DAE9;
+}
+
+
+#blank_bottom
+{
+    text-align: center;
+    background-color: #79DAE9;
+    height: 72px;
+    margin-top: 72px; 
+}
+
+.new_games, .upcoming_games
+{
+    
+    height: 270px;
+    width: 98%;
+    margin-top: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+/*
+#first_new
+{
+   
+}
+*/
+
+
+
+
+/* bottom*/
 
 #bottom hr{
     width: 200%;

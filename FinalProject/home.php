@@ -5,7 +5,7 @@
         <!-- insert buttons here -->
         <ul class="buttons">
             <a href="https://www.google.com"><li id="button">Profile</li></a>
-            <a href="https://www.yahoo.com"><li id="button">What's New?</li></a>
+            <a href="whats_new.php"><li id="button">What's New?</li></a>
             <a href="https://www.bing.com"><li id="button">Community</li></a>
         </ul>
         <hr>
@@ -14,11 +14,10 @@
     
         
 
-
         <div class="scroll">
 
             <ul>
-                <li class="first"> <a href="https://www.residentevil.com/4/us/"> <img src="GameCovers/RE4.jpg" title="Resident Evil 4"></a></li>
+                <li class="first"> <a href="https://www.google.com"> <img src="GameCovers/RE4.jpg" title="Resident Evil 4"></a></li>
                 <li> <img src="GameCovers/GTA4.jpg"> </li>
                 <li> <img src="GameCovers/Mortal_Kombat.jpg"> </li>
                 <li> <img src="GameCovers/DOOM.jpg"> </li>
