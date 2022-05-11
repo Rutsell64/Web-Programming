@@ -1,0 +1,478 @@
+* {
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+body {
+    background-color: #212227;
+    overflow-x: hidden;
+
+}
+
+body::-webkit-scrollbar {
+    width: 20px;
+
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #121315;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #79DAE9;
+    border-radius: 50px;
+}
+
+#banner {
+    margin-top: 10pt;
+    margin-left: 10pt;
+
+}
+.logo
+{
+    margin-left: 12px;
+    width: 10%;
+    height: 10%;
+}
+
+
+
+
+
+#buttons hr {
+    width: 200%;
+    height: 20px;
+    border: none;
+    background-color: #121315;
+    margin-left: -50%;
+
+}
+
+.buttons {
+
+    margin-left: -60px;
+    margin-top: -21px;
+    
+}
+
+#buttons #button {
+    display: inline-block;
+    white-space: nowrap;
+    
+    position: relative;
+    top: 36px;
+
+    width: 100px;
+    height: 1px;
+    margin-left: 30px;
+    
+    
+    color: #79DAE9;
+    background-color: #121315;
+    text-align: center;
+    line-height: 39%;
+    
+    font-weight: bold;
+    
+
+    border-radius: 39px 39px 0 0;
+    
+
+
+}
+
+
+#buttons #button:hover
+{
+    color: #D6E5FA;
+    
+}
+
+.scroll, .new_games, .upcoming_games {
+    background-color: transparent;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    position: relative;
+    right: 0;
+    height: 360px;
+    width: 100%;
+    
+
+    padding: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.scroll::-webkit-scrollbar, .new_games::-webkit-scrollbar, .upcoming_games::-webkit-scrollbar {
+    height: 20px;
+    
+}
+
+.scroll::-webkit-scrollbar-track, .new_games::-webkit-scrollbar-track, .upcoming_games::-webkit-scrollbar-track{
+    background-color: #121315;
+    border-radius: 50px;
+    
+    
+}
+
+.scroll::-webkit-scrollbar-thumb, .new_games::-webkit-scrollbar-thumb, .upcoming_games::-webkit-scrollbar-thumb{
+    background-color: #79DAE9;
+    border-radius: 50px;
+}
+
+
+li {
+    display: inline;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0;
+    padding: 30pt;
+}
+
+/*
+li.first {
+     
+}
+
+li.last {
+    
+}
+*/
+
+img {
+    width: 14%;
+    height: 14%;
+
+   
+
+} 
+
+
+
+.genre {
+    background-color: transparent;
+    border: 5px solid #121315;
+    border-radius: 50px;
+    margin-top: 50pt;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 720pt;
+    width: 95%;
+
+
+}
+
+.genre select {
+    float: left;
+    height: 36px;
+    width: 270px;
+    margin-left: 72px;
+
+    border-radius: 50px;
+    border: 3px solid transparent;
+
+    background-color: #121315;
+    color: #79DAE9;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.genre select:focus,.genre select:hover
+{
+    outline: none;
+    border: 3px solid #79DAE9;
+}
+
+.genre select option
+{
+    background-color: black;
+}
+
+.genre input.submit {
+    margin-left: 15px;
+    position: relative;
+    top: 3px;
+
+}
+
+/* what's new? */
+
+.whats_new_scroll 
+{
+    display: inline;
+    white-space: nowrap;
+    margin-left: -70px;
+}
+
+.vertical_scroll
+{
+    height: 999px;
+    width: 63%;
+    background-color:transparent;
+    border: 5px solid #D6E5FA;
+    border-radius: 50px;
+    
+
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.news_scroll
+{
+    height: 999px;
+    width: 30%;
+    background-color: transparent;
+    border: 5px solid #D6E5FA;
+    border-radius: 50px;
+
+    display: inline-block;
+    overflow: hidden;
+
+    margin-left: -39px;
+    
+}
+
+h1{
+    text-align: center;
+    background-color: #D6E5FA;
+    height: 72px;
+    width: 100%;
+    margin-top: 0;
+ 
+}
+
+
+
+h2{
+    
+    text-align: center;
+    background-color: #D6E5FA;
+    height: 54px;
+    margin-right: 720px;
+
+    border-radius: 0 50px 50px 0;
+    
+    
+}
+
+#header
+{
+    color: #121315;
+    vertical-align: -50%;
+}
+
+#header2
+{
+
+    color: #121315;
+    vertical-align: -50%;
+}
+
+#news_header
+{
+    background-color: #D6E5FA;
+}
+
+
+#blank_bottom
+{
+    text-align: center;
+    background-color: #D6E5FA;
+    height: 72px;
+    margin-top: 72px; 
+}
+
+.new_games, .upcoming_games
+{
+    
+    height: 270px;
+    width: 98%;
+    margin-top: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+/*
+#first_new
+{
+   
+}
+*/
+
+/******************************************/
+/******************************************/
+/******************************************/
+/******************************************/
+/******************bottom******************/
+/******************************************/
+/******************************************/
+/******************************************/
+/******************************************/
+
+
+#bottom hr{
+    width: 200%;
+    height: 2px;
+    border: none;
+    background-color: #D6E5FA;
+    margin-left: -50%;
+}
+
+#bottom table
+{
+    
+    margin-left: 45px;
+    margin-top: 21px;
+}
+
+#bottom th{
+    text-align: left;
+    color: #D6E5FA;
+    font-size: 15px;
+    font-weight:lighter;
+}
+
+#bottom td{
+    color: #D6E5FA90;
+    font-weight: lighter;
+    
+    
+}
+
+#bottom img
+{
+    margin-left: 45px;
+    width: 5%;
+    height: auto;
+}
+
+/******************************************/
+/******************************************/
+/******************************************/
+/******************************************/
+/******************signup******************/
+/******************************************/
+/******************************************/
+/******************************************/
+/******************************************/
+
+
+.signup, .login
+{
+    height: 540px;
+    width: 30%;
+    background-color: #121315;
+    border: 5px solid #121315;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset
+{
+    
+    border: none;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    
+
+}
+
+input[type=text], input[type=password], input[type=number]
+{
+    padding: 20px 54px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    
+    /* border-radius: 50px; 
+    border: 0 solid transparent; */
+    border: 3px solid transparent;
+    border-bottom: 3px solid white;
+    color: #79DAE9;
+    background-color: transparent;
+    outline: none;
+    
+    
+}
+
+
+
+input[type=submit]
+{
+    padding: 20px 36px;
+    border-radius: 50px;
+    border: 0 solid transparent;
+    background-color: #79DAE9;
+    color: #121315;
+}
+
+input[type=number]
+{
+    padding: 20px 95px;
+    
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+input[type=text]:hover, input[type=password]:hover, input[type=number]:hover
+{
+    border-bottom: 3px solid #79DAE9;
+    cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+    cursor: pointer;
+}
+
+h3{
+    color: #D6E5FA;
+    font-weight: lighter;
+    margin-left: 39px;
+}
+
+#link
+{
+    color: #79DAE9;
+    
+}
+
+#link, #link:focus, #link:active, #link:visited {
+    text-decoration: none;
+    color: royalblue;
+   
+}
+
+#link:hover
+{
+    text-decoration: none;
+    color: #79DAE9;
+}
+
+.already_have_account
+{
+    text-align: center;
+    position: relative;
+    top: 99px;
+    color: #D6E5FA;
+}
+
+.dont_have_account
+{
+    text-align: center;
+    position: relative;
+    top: 99px;
+    color: #D6E5FA;
+}
+
+
