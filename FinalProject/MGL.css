@@ -198,5 +198,42 @@ legend {
 	border: 2px outset gray;
 	padding: 0.2em;
 }
+.titles > p{
+	border:solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:25em;
+	margin-left:30%;
+	margin-bottom:2%;
+	padding:5px;
+	font-size:15pt;
+}
 
+.table {
+	overflow-y: auto;
+    height: 600px;
+	text-align:center;
+}
 
+.table thead th {
+    position: sticky;
+    top: 0;
+}
+
+table {
+	border-collapse: collapse;
+    width: 100%;
+}
+
+th,td {
+padding: 41px 50px;
+}
+
+th{
+	background: #eee;
+}
+
+.table,.table td {
+    box-shadow: inset 0px -1px #000;
+}
