@@ -38,13 +38,25 @@
     {
         $_SESSION['username'] = $username;
 
-        print $_SESSION['username'] . " is logged in.";
+        //print $_SESSION['username'] . " is logged in.";
+?>
+
+        <h3><?=$_SESSION['username']?> is logged in.</h3>
+
+<?php
     }
     else
         {
 
             //print $username . " not found";
-            print "The username or password you entered isn't connected to an account.";
+            //print "The username and password you entered isn't connected to an account.";
+
+?>
+        <h3>The username and password you entered isn't connected to an account.<h3>
+        
+
+
+<?php
 
         
         }

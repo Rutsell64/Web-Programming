@@ -4,14 +4,35 @@
         <br> <br>
         <!-- insert buttons here -->
         <ul class="buttons">
-            <a href="profile.php"><li id="button">Profile</li></a>
+
+<?php
+
+    if(!isset($_SESSION['username']))
+    {
+?>
+        <a href="signup.php"><li id="button">Profile</li></a>
+<?php
+    }
+    else
+    {
+?>
+    <a href="profile.php"><li id="button">Profile</li></a>
+<?php
+
+    }
+    
+?>
+
+   
             <a href="whats_new.php"><li id="button">What's New?</li></a>
             <a href="https://www.bing.com"><li id="button">Community</li></a>
 
-            <!-- will change next 3 after -->
+            <!-- 
             <a href="signup.php"><li id="button">Sign Up</li></a> 
             <a href="login.php"><li id="button">Log In</li></a>
             <a href="log-out.php"><li id="button">Log out</li></a>
+            -->
+            
         </ul>
         <hr>
         <br>
@@ -60,8 +81,14 @@
                 <option value="https://www.facebook.com">Strategy</option>
             </select>
 
+            <br><br><br>
+            <a href="https://www.google.com"><img src="genres/action.gif"/></a>
+
         </p>
     </div>
+
+
+
 
 <?php include("bottom.html");?>
 
