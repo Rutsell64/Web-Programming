@@ -133,11 +133,17 @@
 			</select>
 		</div>
 		
+		
+		
 		<p class = "Add_To_List_Button"><input type = "submit" value = "Add To List" /></p>
 		
 		</form>
 		
+		<form class = "form" action = "delete_game_info_submit.php?game=<?=$name?>" method = "post">
 		
+			<p class = "Remove_From_List_Button"><input type = "submit" value = "Delete From List" /></p>
+			
+		</form>
 		
 	</body>
 
