@@ -7,9 +7,12 @@
 	<div id="banner">
 
             <a href="home.php">
-                <img class="logo"src="logo.png" width = "150" height = "100" />
+                <img class="logo"src="logo.png" width = "150" height = "160" />
             </a>
     </div>
+		
+		<p class = "game_info_header">INFO ON GAME</p>
+		
 		<?php
 			$name = $_GET["game"];
 			$image = str_replace(' ','%20', $name);
@@ -27,6 +30,7 @@
 					$game_rating = $line[6];
 					$game_link = "<a href = $line[7]>$line[7]</a>";
 					$game_trailer = $line[8];
+					$game_bio = $line[9];
 					$game_image = "<img src = ./Game_Covers/$image.png width = 255 height = 383>";
 				}
 			}
@@ -38,20 +42,19 @@
 			</div>
 		<?php
 			print "<br>";
-			print "Genre: $game_genre";
-			print "<br><br><br>";
-			print "Developer: $game_developer";
-			print "<br><br><br>";
-			print "Publisher: $game_publisher";
-			print "<br><br><br>";
-			print "Release Date: $game_release_date";
-			print "<br><br><br>";
-			print "Review: $game_review";
-			print "<br><br><br>";
-			print "ESRB Rating: $game_rating";
-			print "<br><br><br>";
-			print "Link to Game: $game_link";
-			
+			print "&nbsp;Genre: $game_genre";
+			print "<br><br>";
+			print "&nbsp;Developer: $game_developer";
+			print "<br><br>";
+			print "&nbsp;Publisher: $game_publisher";
+			print "<br><br>";
+			print "&nbsp;Release Date: $game_release_date";
+			print "<br><br>";
+			print "&nbsp;Review: $game_review";
+			print "<br><br>";
+			print "&nbsp;ESRB Rating: $game_rating";
+			print "<br><br>";
+			print "&nbsp;Link to Game: $game_link";
 		?>
 		</div>
 		
@@ -73,6 +76,17 @@
 		<?php
 			print "<br>";
 			print "$game_trailer";
+			
+		?>
+		</div>
+		
+		<div class = "game_bio">
+			<div id = "game_headers">
+				<?php print "Game Synopsis"; ?>
+			</div>
+		<?php
+			print "<br>";
+			print " $game_bio";
 			
 		?>
 		</div>
