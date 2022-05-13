@@ -35,7 +35,7 @@
                 <div class="scroll_genre">
 
             <ul>
-                <li class="first"> <a href="https://www.google.com"> <img src="Game_Covers/GTA4.jpg" title="Resident Evil 4"></a></li>
+                <li class="first"><img src="Game_Covers/GTA4.jpg" title="Resident Evil 4"></a></li>
                 <li> <img src="Game_Covers/GTA4.jpg"> </li>
                 <li> <img src="Game_Covers/GTA4.jpg"> </li>
                 <li> <img src="Game_Covers/GTA4.jpg"> </li>
@@ -63,7 +63,7 @@
                 <div class="scroll_genre">
 
             <ul>
-                <li class="first"> <a href="https://www.google.com"> <img src="Game_Covers/Little_Big_Planet.jpg" title="Resident Evil 4"></a></li>
+                <li class="first"><img src="Game_Covers/Little_Big_Planet.jpg" title="Resident Evil 4"></a></li>
                 <li> <img src="Game_Covers/Little_Big_Planet.jpg"> </li>
                 <li> <img src="Game_Covers/Little_Big_Planet.jpg"> </li>
                 <li> <img src="Game_Covers/Little_Big_Planet.jpg"> </li>
@@ -88,7 +88,7 @@
                 <div class="scroll_genre">
 
             <ul>
-                <li class="first"> <a href="https://www.google.com"> <img src="Game_Covers/Super.jpg" title="Resident Evil 4"></a></li>
+                <li class="first"> <img src="Game_Covers/Super.jpg" title="Resident Evil 4"></a></li>
                 <li> <img src="Game_Covers/Super.jpg"> </li>
                 <li> <img src="Game_Covers/Super.jpg"> </li>
                 <li> <img src="Game_Covers/Super.jpg"> </li>
@@ -113,7 +113,7 @@
                 <div class="scroll_genre">
 
             <ul>
-                <li class="first"> <a href="https://www.google.com"> <img src="Game_Covers/RE4.jpg" title="Resident Evil 4"></a></li>
+                <li class="first"> <a href="game_info.php?game=Resident Evil 4"> <img src="Game_Covers/RE4.jpg" title="Resident Evil 4"></a></li>
                 <li> <img src="Game_Covers/RE4.jpg"> </li>
                 <li> <img src="Game_Covers/RE4.jpg"> </li>
                 <li> <img src="Game_Covers/RE4.jpg"> </li>
@@ -138,7 +138,7 @@
                 <div class="scroll_genre">
 
             <ul>
-                <li class="first"> <a href="https://www.google.com"> <img src="Game_Covers/Little_Big_Planet.jpg" title="Resident Evil 4"></a></li>
+                <li class="first"> <img src="Game_Covers/Little_Big_Planet.jpg" title="Resident Evil 4"></a></li>
                 <li> <img src="Game_Covers/Little_Big_Planet.jpg"> </li>
                 <li> <img src="Game_Covers/Little_Big_Planet.jpg"> </li>
                 <li> <img src="Game_Covers/Little_Big_Planet.jpg"> </li>
@@ -163,7 +163,7 @@
                 <div class="scroll_genre">
 
             <ul>
-                <li class="first"> <a href="https://www.google.com"> <img src="Game_Covers/Super.jpg" title="Resident Evil 4"></a></li>
+                <li class="first"> <a href="game_info.php?game=Resident Evil 4"> <img src="Game_Covers/Super.jpg" title="Resident Evil 4"></a></li>
                 <li> <img src="Game_Covers/Super.jpg"> </li>
                 <li> <img src="Game_Covers/Super.jpg"> </li>
                 <li> <img src="Game_Covers/Super.jpg"> </li>
@@ -188,7 +188,7 @@
                 <div class="scroll_genre">
 
             <ul>
-                <li class="first"> <a href="https://www.google.com"> <img src="Game_Covers/DOOM.jpg" title="Resident Evil 4"></a></li>
+                <li class="first"><img src="Game_Covers/DOOM.jpg" title="Resident Evil 4"></a></li>
                 <li> <img src="Game_Covers/DOOM.jpg"> </li>
                 <li> <img src="Game_Covers/DOOM.jpg"> </li>
                 <li> <img src="Game_Covers/DOOM.jpg"> </li>
@@ -213,7 +213,7 @@
                 <div class="scroll_genre">
 
             <ul>
-                <li class="first"> <a href="https://www.google.com"> <img src="Game_Covers/RE4.jpg" title="Resident Evil 4"></a></li>
+                <li class="first"> <a href="game_info.php?game=Resident Evil 4"> <img src="Game_Covers/RE4.jpg" title="Resident Evil 4"></a></li>
                 <li> <img src="Game_Covers/GTA4.jpg"> </li>
                 <li> <img src="Game_Covers/Mortal_Kombat.jpg"> </li>
                 <li> <img src="Game_Covers/DOOM.jpg"> </li>
@@ -238,7 +238,7 @@
                 <div class="scroll_genre">
 
             <ul>
-                <li class="first"> <a href="https://www.google.com"> <img src="Game_Covers/RE4.jpg" title="Resident Evil 4"></a></li>
+                <li class="first"> <a href="game_info.php?game=Resident Evil 4"> <img src="Game_Covers/RE4.jpg" title="Resident Evil 4"></a></li>
                 <li> <img src="Game_Covers/GTA4.jpg"> </li>
                 <li> <img src="Game_Covers/Mortal_Kombat.jpg"> </li>
                 <li> <img src="Game_Covers/DOOM.jpg"> </li>
