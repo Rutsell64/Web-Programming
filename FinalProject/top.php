@@ -10,7 +10,7 @@
 		
 		<meta charset="utf-8" />
 
-		<!-- <link href="logo.png" type="image/png" rel="shortcut icon"/> -->
+		<link href="logo_icon.png" type="image/png" rel="shortcut icon" />
 		<link href="home.css" type="text/css" rel="stylesheet" />
 	</head>
 

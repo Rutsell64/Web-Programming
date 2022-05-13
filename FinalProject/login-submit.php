@@ -3,7 +3,7 @@
 <br>
 
 <?php
-	error_reporting(E_ERROR);
+
     $username = $_POST["username"];
     $password = $_POST["password"];
 
@@ -16,26 +16,53 @@
 
     // check username
 
-	foreach ($lines as $line){
-	$line = explode(",", $line);
-	$check = 0;
-		if($password == $line[1] and $username == $line[4]){
-			  $check = 1;
-			  break;
-		}
-	}
+    for($i = 0; $i < count($lines); $i++) 
+    {
+        $info = explode(",", $lines[$i]); // explode every comma in line
+        $check = 0; 
+
+        if($info[0] == $username and $info[1] == $password) // if found
+        {
+            
+           $check = 1;
+           
+
+
+            break;
+            
+        }
+  
+    }
+
 
     if($check == 1)
     {
         $_SESSION['username'] = $username;
+        $_SESSION['email'] = $info[2];
+        
 
-        print $_SESSION['username'] . " is logged in.";
+        //print $_SESSION['username'] . " is logged in.";
+?>
+
+        <h3>You've succesfully logged in.</h3>
+        <h3>Click <a id="link" href="/MGL/profile.php">here</a> to see your profile.<h3>
+        
+
+<?php
     }
     else
         {
 
             //print $username . " not found";
-            print "The username or password you entered isn't connected to an account.";
+            //print "The username and password you entered isn't connected to an account.";
+
+?>
+        <h3>The username and password you entered isn't connected to an account.<h3>
+        <h3>Click <a id="link" href="/MGL/login.php">here</a> to try again.<h3>
+        
+
+
+<?php
 
         
         }

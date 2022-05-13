@@ -4,11 +4,10 @@
     <br>
 </p>
 
-<ul class="whats_new_scroll">
 
     <!-- -->
 
-    <li>
+    
         <div class="vertical_scroll">
 
         <h1><span id="header">Games</span></h1>
@@ -62,12 +61,12 @@
         <!-- -->
 
 
-        <h1 id="blank_bottom"><span></span></h1>
+        <!-- <h1 id="blank_bottom"><span></span></h1> -->
         
         </div>
-    </li>
+ 
 
-    <!-- -->
+    <!-- 
 
     <li>
 
@@ -80,13 +79,13 @@
 
     </li>
 
-    <!-- -->
+    -->
 
 
 
 
 
-</ul>
+
 
 
 
