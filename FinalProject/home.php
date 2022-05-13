@@ -1,5 +1,27 @@
 <?php include("top.php");?>
-
+  <form class = "search" action = "game_info.php">
+		
+			<input name = "game" list="game" placeholder = "Click Here">
+			<datalist id="game">
+				<select>
+			 <?php
+			
+			$file = file_get_contents("games.txt");
+			$lines = explode("\n", $file);
+			foreach ($lines as $line){
+			$line = explode("|", $line);
+			$game_name = $line[0];
+			?>
+			<option value="<?=$game_name?>">
+			
+			<?php
+			}
+			 ?>
+				</select>
+			</datalist>  
+			<p class = "search_button"><input type = "submit" value = "Search" /></p>
+			
+	</form>
 <div id="buttons">
         <br> <br>
         <!-- insert buttons here -->
@@ -23,7 +45,8 @@
     
 ?>
 
-   
+ 
+	
             <a href="whats_new.php"><li id="button">What's New?</li></a>
             <!-- <a href="https://www.bing.com"><li id="button">Community</li></a> -->
 
@@ -118,4 +141,3 @@
 
 
 <?php include("bottom.html");?>
-
