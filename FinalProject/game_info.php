@@ -4,12 +4,15 @@
 	</head>
 	
 	<body> 
+	
 	<div id="banner">
 
             <a href="home.php">
                 <img class="logo"src="logo.png" width = "150" height = "160" />
             </a>
     </div>
+		
+		  
 		
 		<p class = "game_info_header">INFO ON GAME</p>
 		
@@ -35,7 +38,7 @@
 				}
 			}
 		?>
-
+		
 		<div class = "game_details">
 			<div id = "game_headers">
 				<?php print "Game Details"; ?>
@@ -158,7 +161,8 @@
 			<p class = "Remove_From_List_Button"><input type = "submit" value = "Delete From List" /></p>
 			
 		</form>
-		
+		   
 	</body>
 
 </html>
+
