@@ -36,10 +36,8 @@ body::-webkit-scrollbar-thumb {
     height: 10%;
 }
 
-.search{
-margin-left:70em;	
-text-align:center;
-}
+
+
 
 
 #buttons hr {
@@ -640,6 +638,13 @@ input[type=file]
 
 }
 
+.genre_div .related
+{
+    position: relative;
+    font-size: 45px;
+    top: 15px;
+}
+
 
 
 .genre_img
@@ -648,8 +653,14 @@ input[type=file]
     width: 360px;
     height: 360px;
 
-   
- 
+    border: 3px solid transparent;
+    
+
+}
+
+.genre_img:hover
+{
+    border: 3px solid #D6E5FA;
 }
 
 .scroll_genre
@@ -660,6 +671,38 @@ input[type=file]
     margin-right: auto;
     margin-left: auto;
 }
+
+.searchDiv
+{
+    float: right;
+}
+.search
+{
+    position: relative; 
+    right: 100px;
+    top: 20px;
+    
+    
+    
+}
+.search_button
+{
+    float: right;
+    display:contents;
+    overflow: hidden;
+    position: relative;
+    right: -50px;
+
+}
+
+.search_game
+{
+    height: 20px;
+    width: 20px;
+    position: relative; 
+    top: 5px;
+}
+
 
 
 

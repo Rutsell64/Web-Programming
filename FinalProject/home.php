@@ -1,7 +1,9 @@
 <?php include("top.php");?>
-  <form class = "search" action = "game_info.php">
+
+<div class="searchDiv">
+    <form class = "search" action = "game_info.php">
 		
-			<input name = "game" list="game" placeholder = "Click Here">
+			<input name = "game" list="game" placeholder = "search game...">
 			<datalist id="game">
 				<select>
 			 <?php
@@ -19,9 +21,13 @@
 			 ?>
 				</select>
 			</datalist>  
-			<p class = "search_button"><input type = "submit" value = "Search" /></p>
+
+            <p class = "search_button"><input class="search_game" type="image" name="submit" src="go.png" alt="Submit" /></p>
+            
 			
 	</form>
+</div>
+
 <div id="buttons">
         <br> <br>
         <!-- insert buttons here -->
@@ -45,8 +51,7 @@
     
 ?>
 
- 
-	
+   
             <a href="whats_new.php"><li id="button">What's New?</li></a>
             <!-- <a href="https://www.bing.com"><li id="button">Community</li></a> -->
 
@@ -120,12 +125,12 @@
             <tr>
                 <td><a href="genre.php?genre=Horror"><img id="gif" src="genres/Horror.gif"/></a></td>
                 <td><a href="genre.php?genre=Indie"><img id="gif" src="genres/Indie.gif"/></a></td>
-                <td><a href="genre.php?genre=Action"><img id="gif" src="genres/arcade.gif"/></a></td>
+                <td><a href="genre.php?genre=RPG"><img id="gif" src="genres/RPG.gif"/></a></td>
             </tr>
             <tr>
-                <td><a href="genre.php?genre=Action"><img id="gif" src="genres/action.gif"/></a></td>
-                <td><a href="genre.php?genre=Action"><img id="gif" src="genres/adventure.gif"/></a></td>
-                <td><a href="genre.php?genre=Action"><img id="gif" src="genres/arcade.gif"/></a></td>
+                <td><a href="genre.php?genre=Shooter"><img id="gif" src="genres/Shooter.gif"/></a></td>
+                <td><a href="genre.php?genre=Sports"><img id="gif" src="genres/Sports.gif"/></a></td>
+                <td><a href="genre.php?genre=Strategy"><img id="gif" src="genres/Strategy.gif"/></a></td>
             </tr>
             </table>
 
@@ -141,3 +146,4 @@
 
 
 <?php include("bottom.html");?>
+
