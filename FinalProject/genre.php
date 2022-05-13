@@ -18,12 +18,13 @@
         <br>
         <h1><?=$genre?></h1>
         <br>
-        <img class="genre_img" src="genres/<?=$genre?>.gif"/>
+        <a href="https://www.youtube.com/user/NoOneSpecialChannel"><img class="genre_img" src="genres/<?=$genre?>.gif"/></a>
         <br>
         <br>
         <br>
         <br>
-        <h1>Related Games</h1>
+        <br>
+        <h1 class="related">Related Games</h1>
 
         <?php
 
