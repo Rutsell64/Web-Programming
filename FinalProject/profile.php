@@ -48,7 +48,7 @@
         <h3>username: <span id="info"><?=$_SESSION['username']?></span></h3>
         <h3>email: <span id="info"><?=$email?></span></h3>
 
-        <p class="logout"><a id="link" href="log-out.php">Log out</a></p>
+       <p class="logout"><a id="link" href="video_game_list.php">My List</a>   /   <a id="link" href="log-out.php">Log out</a></p>
         </div>
 
         <script>
