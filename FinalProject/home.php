@@ -72,15 +72,15 @@
               
             <select name="genres" onchange="location = this.value;">
                 <option id="choose_genre" selected disabled hidden>choose genre...</option>
-                <option value="https://www.google.com">Action</option> <!-- will change link for these-->
-                <option value="https://www.bing.com">Adventure</option>
-                <option value="https://www.yahoo.com">Arcade</option>
-                <option value="https://www.facebook.com">Horror</option>     
-                <option value="https://www.instagram.com">Indie</option>
-                <option value="https://www.yahoo.com">RPG</option>
-                <option value="https://www.twitter.com">Shooter</option>
-                <option value="https://www.google.com">Sports</option>
-                <option value="https://www.facebook.com">Strategy</option>
+                <option value="genre.php?genre=Action">Action</option> <!-- will change link for these-->
+                <option value="genre.php?genre=Adventure">Adventure</option>
+                <option value="genre.php?genre=Arcade">Arcade</option>
+                <option value="genre.php?genre=Horror">Horror</option>     
+                <option value="genre.php?genre=Indie">Indie</option>
+                <option value="genre.php?genre=RPG">RPG</option>
+                <option value="genre.php?genre=Shooter">Shooter</option>
+                <option value="genre.php?genre=Sports">Sports</option>
+                <option value="genre.php?genre=Strategy">Strategy</option>
             </select>
         </p>
 
@@ -90,19 +90,19 @@
 
             <table cellspacing="0" cellpadding="0">
             <tr>
-                <td><a href="https://www.google.com"><img id="gif" src="genres/action.gif"/></a></td>
-                <td><a href="https://www.google.com"><img id="gif" src="genres/adventure.gif"/></a></td>
-                <td><a href="https://www.google.com"><img id="gif" src="genres/arcade.gif"/></a></td>
+                <td><a href="genre.php?genre=Action"><img id="gif" src="genres/Action.gif"/></a></td>
+                <td><a href="genre.php?genre=Adventure"><img id="gif" src="genres/Adventure.gif"/></a></td>
+                <td><a href="genre.php?genre=Arcade"><img id="gif" src="genres/Arcade.gif"/></a></td>
             </tr>
             <tr>
-                <td><a href="https://www.google.com"><img id="gif" src="genres/action.gif"/></a></td>
-                <td><a href="https://www.google.com"><img id="gif" src="genres/adventure.gif"/></a></td>
-                <td><a href="https://www.google.com"><img id="gif" src="genres/arcade.gif"/></a></td>
+                <td><a href="genre.php?genre=Horror"><img id="gif" src="genres/Horror.gif"/></a></td>
+                <td><a href="genre.php?genre=Indie"><img id="gif" src="genres/Indie.gif"/></a></td>
+                <td><a href="genre.php?genre=Action"><img id="gif" src="genres/arcade.gif"/></a></td>
             </tr>
             <tr>
-                <td><a href="https://www.google.com"><img id="gif" src="genres/action.gif"/></a></td>
-                <td><a href="https://www.google.com"><img id="gif" src="genres/adventure.gif"/></a></td>
-                <td><a href="https://www.google.com"><img id="gif" src="genres/arcade.gif"/></a></td>
+                <td><a href="genre.php?genre=Action"><img id="gif" src="genres/action.gif"/></a></td>
+                <td><a href="genre.php?genre=Action"><img id="gif" src="genres/adventure.gif"/></a></td>
+                <td><a href="genre.php?genre=Action"><img id="gif" src="genres/arcade.gif"/></a></td>
             </tr>
             </table>
 

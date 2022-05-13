@@ -3,8 +3,10 @@
 }
 
 body {
-    background-color: #212227;
+    /*background-color: #212227; */
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
     overflow-x: hidden;
+    
 
 }
 
@@ -34,6 +36,10 @@ body::-webkit-scrollbar-thumb {
     height: 10%;
 }
 
+
+
+
+
 #buttons hr {
     width: 200%;
     height: 20px;
@@ -45,8 +51,9 @@ body::-webkit-scrollbar-thumb {
 
 .buttons {
 
+    
     margin-left: -60px;
-    margin-top: -21px;
+    margin-top: -54px;
     
 }
 
@@ -83,7 +90,7 @@ body::-webkit-scrollbar-thumb {
     
 }
 
-.scroll, .new_games, .upcoming_games {
+.scroll, .new_games, .upcoming_games, .scroll_genre {
     background-color: transparent;
     border: 1px solid transparent;
     white-space: nowrap;
@@ -98,19 +105,19 @@ body::-webkit-scrollbar-thumb {
     overflow-y: hidden;
 }
 
-.scroll::-webkit-scrollbar, .new_games::-webkit-scrollbar, .upcoming_games::-webkit-scrollbar {
+.scroll::-webkit-scrollbar, .new_games::-webkit-scrollbar, .upcoming_games::-webkit-scrollbar, .scroll_genre::-webkit-scrollbar {
     height: 20px;
     
 }
 
-.scroll::-webkit-scrollbar-track, .new_games::-webkit-scrollbar-track, .upcoming_games::-webkit-scrollbar-track{
+.scroll::-webkit-scrollbar-track, .new_games::-webkit-scrollbar-track, .upcoming_games::-webkit-scrollbar-track, .scroll_genre::-webkit-scrollbar-track{
     background-color: #121315;
     border-radius: 50px;
     
     
 }
 
-.scroll::-webkit-scrollbar-thumb, .new_games::-webkit-scrollbar-thumb, .upcoming_games::-webkit-scrollbar-thumb{
+.scroll::-webkit-scrollbar-thumb, .new_games::-webkit-scrollbar-thumb, .upcoming_games::-webkit-scrollbar-thumb, .scroll_genre::-webkit-scrollbar-thumb{
     background-color: #79DAE9;
     border-radius: 50px;
 }
@@ -138,21 +145,55 @@ img {
     width: 14%;
     height: 14%;
 
-   
-
 } 
+
+.table
+{
+    text-align: center;
+    border-collapse: collapse;
+    background-color: transparent;
+   
+    
+}
+
+.table table
+{
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.table td
+{
+    padding: 63px;
+
+}
+
+.table #gif
+{
+    height: 200px;
+    width: 200px;
+    border: 5px solid transparent;
+
+}
+
+#gif:hover
+{
+    border: 5px solid #D6E5FA;
+}
 
 
 
 .genre {
     background-color: transparent;
-    border: 5px solid #121315;
+    border: 9px solid #121315;
     border-radius: 50px;
     margin-top: 50pt;
     margin-left: auto;
     margin-right: auto;
 
-    height: 720pt;
+    height: 900pt;
     width: 95%;
 
 
@@ -198,23 +239,26 @@ img {
 {
     display: inline;
     white-space: nowrap;
-    margin-left: -70px;
+    
 }
 
 .vertical_scroll
 {
     height: 999px;
     width: 63%;
-    background-color:transparent;
-    border: 5px solid #D6E5FA;
+    background-color: #212227;
+    border: 9px solid #121315;
     border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
     
 
-    display: inline-block;
+    /*display: inline-block; */
     overflow: hidden;
 
 }
 
+/*
 .news_scroll
 {
     height: 999px;
@@ -229,10 +273,11 @@ img {
     margin-left: -39px;
     
 }
+*/
 
 h1{
     text-align: center;
-    background-color: #D6E5FA;
+    background-color: #212227;
     height: 72px;
     width: 100%;
     margin-top: 0;
@@ -244,7 +289,7 @@ h1{
 h2{
     
     text-align: center;
-    background-color: #D6E5FA;
+    background-color: #121315;
     height: 54px;
     margin-right: 720px;
 
@@ -255,7 +300,7 @@ h2{
 
 #header
 {
-    color: #121315;
+    color: #79DAE9;
     vertical-align: -50%;
 }
 
@@ -378,7 +423,7 @@ fieldset
 
 }
 
-input[type=text], input[type=password], input[type=number]
+input[type=text], input[type=password], input[type=email]
 {
     padding: 20px 54px;
     font-size: 15px;
@@ -407,20 +452,23 @@ input[type=submit]
     color: #121315;
 }
 
+/*
 input[type=number]
 {
     padding: 20px 95px;
     
 }
 
+
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
   margin: 0; 
 }
+*/
 
 
-input[type=text]:hover, input[type=password]:hover, input[type=number]:hover
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover
 {
     border-bottom: 3px solid #79DAE9;
     cursor: pointer;
@@ -470,3 +518,154 @@ h3{
     top: 99px;
     color: #D6E5FA;
 }
+
+.logout
+{
+    
+    position: relative;
+    text-align: center;
+    
+
+    top: 45px;
+    right: 9px;
+    
+    color: #D6E5FA;
+    
+    width: 390px;
+    
+}
+
+
+.profile
+{
+    background-color: #121315;
+    position: relative;
+    min-height: 540px;
+    width: 390px;
+    right: 10px;
+    border-radius: 0 50px 50px 0;
+    
+}
+
+.profile_header
+{
+    text-align: center;
+    margin-left: 0;
+    
+    color: #121315;
+    position: relative;
+    
+    background-color: #79DAE9;
+    font-weight: 600;
+    width: 210px;
+    height: 50px;
+    border-radius: 0 50px 50px 0;
+}
+
+.profile_header #profile{
+
+    position: relative;
+    top: 25%;
+
+}
+
+.profile #info
+{
+    color: #79DAE9;
+}
+
+.image
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ffffff50;
+    border: 3px solid #79DAE9;
+
+  margin-left: 49px;
+
+
+    
+}
+
+input[type=file]
+{
+    display: none;
+    
+}
+
+#upload
+{
+    color: #79DAE9;
+    position: relative;
+    left: 54px;
+    top: -54px;
+    display: none;
+    
+    
+
+}
+
+#photo
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.genre_div
+{
+    height: 930pt;
+    width: 95%;
+    background-color: #212227;
+    border: 9px solid #121315;
+    border-radius: 50px;
+    margin-top: 21pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.genre_div h1{
+
+    
+    color: #79DAE9;
+    background-color: transparent;
+    margin-left: -39px;
+    margin-right: auto;
+    font-size: 72px;
+    text-align: center;
+
+
+}
+
+
+
+.genre_img
+{
+    margin-left: 490px;
+    width: 360px;
+    height: 360px;
+
+   
+ 
+}
+
+.scroll_genre
+{
+    
+    width: 98%;
+    margin-top: 45px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
