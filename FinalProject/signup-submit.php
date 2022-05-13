@@ -1,7 +1,10 @@
 <?php include("top.php"); ?>
-
+<DOCTYPE html>
+<head>
+		<link href = "MGL.css" type = "text/css" rel = "stylesheet"/>
+	</head>
 <br>
-
+<body> 
 <?php
 	error_reporting(E_ERROR);
 	$name = $_POST["name"];
@@ -62,3 +65,22 @@
 	}
 
 ?>
+	<div>
+                <br><br><br><br><br><br>
+                <hr>
+				<p class = "contact_us">
+                Contact Us
+				</p>
+				<p>
+            
+				<div class = "personal_info_more">hsandhir01@manhattan.edu</div>
+				<br>
+				<div class = "personal_info_more">(914)318-6599 </div>
+				<br>
+				<div class = "personal_info_more">rmoradel01@manhattan.edu </div>
+            </p>
+			
+            
+        </div>
+		</body> 
+</html>
