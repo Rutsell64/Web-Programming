@@ -9,6 +9,7 @@
                 <img class="logo"src="logo.png" width = "150" height = "150" />
             </a>
     </div>
+	
 		<div class = "login_box">
 			<form class = "form" action = "login-submit.php" method = "post">
 		
@@ -29,7 +30,24 @@
 			
 			</form>
 		</div>
-
+		
+		     <div>
+                <br><br><br><br><br><br>
+                <hr>
+				<p class = "contact_us">
+                Contact Us
+				</p>
+				<p>
+            
+				<div class = "personal_info_more">hsandhir01@manhattan.edu</div>
+				<br>
+				<div class = "personal_info_more">(914)318-6599 </div>
+				<br>
+				<div class = "personal_info_more">rmoradel01@manhattan.edu </div>
+            </p>
+			<p class = "bottom_logo"><img src="logo.png" height = "80px" /></p>
+            
+        </div>
 	</body>
 
 </html>
