@@ -26,7 +26,7 @@
 	<div class="table">
       <table>
         <thead>
-          <tr>
+          <tr class = "list_headings">
             <th>Number</th>
             <th>Image</th>
 			<th>Game Title</th>
