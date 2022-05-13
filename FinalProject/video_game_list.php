@@ -12,6 +12,7 @@
   <div class = "titles">
 		<p>List Of All My Video Games</p>
   </div>
+  
   <?php
   if(!isset($_SESSION['username']))
     {
@@ -77,7 +78,7 @@
 	<?php
 	}
   ?>
-  
+      
   </body>
   
 </html>
