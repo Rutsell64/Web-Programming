@@ -7,11 +7,28 @@ body {
     overflow-x: hidden;
 	min-width:100px;
 }
+
+.contact_us{
+	margin-top:20px;
+	margin-left:50px;
+	color: #D6E5FA;
+}
+
+
+.personal_info_more{
+	margin-left:50px;
+	margin-top:-12px;
+	color: #D6E5FA90;
+}
+
+.bottom_logo{
+	margin-left:50px;
+}
+
 .form {
 	overflow: hidden;
 	width: 26em;
 }
-
 
 a {
 	color: blue;
